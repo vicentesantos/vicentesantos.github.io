@@ -1,0 +1,134 @@
+*{margin: 0; padding:0; font-family: Arial, Helvetica, sans-serif; font-size: 12pt;}
+body{
+    background-color: #181818;
+    color: #FFFFFF;
+    width: 100%;
+}
+a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+a:hover{
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+ul li{
+    list-style: none;
+}
+h1{
+    font-size: 2rem;
+}
+h2{
+    font-size: 1.5rem;
+}
+p{
+    padding: 0 6% 0 6%;
+    text-align: justify;
+}
+nav{
+    width: 100%;
+    height: auto;
+    float: left;
+    border-bottom: 1px solid #fff;
+}
+@media screen and (max-width: 1920px){
+    #logo{
+        width: 20%;
+        margin: 1% 0 0 5%;
+    }
+    #header{
+        width: 100%;
+        height: auto;
+    }
+    #main{
+        height: 200px;
+    }
+    #menu{
+        float: right;
+        margin: 2% 5% 0 0;
+        text-align: center;
+    }
+    #menu li{
+        width:8rem;
+        position: relative;
+        float: left;
+    }
+    #menu li a{
+        padding: 5% 2%;
+        display: block;
+    }
+    #menu li a:hover{
+        background-color: #FFFFFF;
+        color:#000;
+        text-decoration: none;
+    }
+    #title1{
+        margin: 6% 0 0 5%;
+    }
+    #description{
+        width: 60%;
+        margin-top: -10%;
+        padding-left: 25%;
+        align-items: center;
+    }
+    #photo {
+        width: 15rem;
+        height: auto;
+        border-radius: 100%;
+        margin-left: 10%;
+        margin-top: 2%;
+    }
+    #projetos p{
+        margin-top: 2%;
+    }
+    #projects{
+        float: left;
+        padding-top: 2%;
+    }
+    #projects li{
+        float: left;
+        position: relative;
+        width: 6rem;
+        margin-left: 10rem;
+    }
+    #projects li:nth-child(2){
+        margin-left:4rem;
+    }
+    .img-projects{
+        height: 5rem;
+        width: auto;
+    }
+    .download-icon{
+        width: 2rem;
+        height: auto;
+        padding: 3% 0.5% 0 25%;
+    }
+    #footer{
+        width: 100%;
+        height: auto;
+        margin: 20% 0 0 0; 
+    }
+    #contato{
+        float: left;
+        width: 100%;
+        margin: 0 0 2% 1%;
+        
+    }
+    #footer-content{
+        width: 50%;
+        align-content: center;
+        flex-direction: row;
+        justify-content: center;
+        display: inline-flex;
+        margin-left: 36%;
+    }
+    #contato li{
+        float: left;
+        position: relative;
+        margin-left: 4%;
+    }
+    #footer p{
+        text-align: center;
+        font-size: 10pt;
+    }
+}
